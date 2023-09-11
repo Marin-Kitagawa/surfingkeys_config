@@ -31,6 +31,7 @@ const hintsCss =
 
 Hints.style(hintsCss);
 Hints.style(hintsCss, "text");
+Hints.setCharacters("abcdefghijklmnopqrstuvwxyz0123456789`~!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?");
 
 // Custom Key remappings
 
