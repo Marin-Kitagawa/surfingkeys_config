@@ -1,4 +1,4 @@
-# surfingkeys_config
+# My `SurfingKeys` configuration
 My configuration for Surfingkeys extension
 
 
