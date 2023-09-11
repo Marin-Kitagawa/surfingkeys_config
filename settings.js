@@ -33,10 +33,18 @@ Hints.style(hintsCss);
 Hints.style(hintsCss, "text");
 Hints.setCharacters("abcdefghijklmnopqrstuvwxyz0123456789`~!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?");
 
+// Increasing the smooth scrolling step size
+settings.scrollStepSize = 120;
+
 // Custom Key remappings
 
 map('J', 'R');
 map('K', 'E');
+map('Z', 'H');
+map('H', 'S');
+map('L', 'D');
+unmap('S');
+unmap('D');
 
 settings.theme = `
   .sk_theme {
