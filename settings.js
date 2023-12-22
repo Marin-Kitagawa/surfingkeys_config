@@ -45,7 +45,7 @@ map('H', 'S');
 map('L', 'D');
 unmap('S');
 unmap('D');
-settings.blacklistPattern = /https?:\/\/www\.youtube\.com\/watch\/.*/i;
+settings.blacklistPattern = /https?:\/\/www\.youtube\.com\/watch.*/i;
 settings.theme = `
   .sk_theme {
     background: #191724;
